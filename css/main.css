@@ -183,17 +183,17 @@
 .section-d .promo .cta:hover {
   background-color: #0d23ae;
 }
-.section-d .duration span {
+.section-d .facilities span {
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
 }
-.section-d .duration h4 {
+.section-d .facilities h3 {
   font-size: 2rem;
   line-height: 1;
 }
-.section-d .duration .d-flex {
+.section-d .facilities .d-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
