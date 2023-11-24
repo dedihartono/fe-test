@@ -108,7 +108,7 @@ section features .circle-icon {
   border-radius: 50%;
 }
 
-i {
+.circle-icon i {
   font-size: 50px;
   margin-bottom: 10px;
   color: white;
