@@ -100,11 +100,18 @@
 
 /* section features */
 section features .circle-icon {
+  display: inline-block;
   width: 100px;
   height: 100px;
   padding: 15px;
   background-color: blue;
   border-radius: 50%;
+}
+
+i {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
 }
 .content.grid {
   display: flex;
@@ -119,9 +126,7 @@ section features .circle-icon {
   padding: 7rem 0;
   text-align: center;
 }
-.section-features h2 {
-  text-align: left;
-}
+
 .section-features .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,6 +148,7 @@ section features .circle-icon {
 .section-features h3 {
   text-align: left;
   margin-top: 1.8rem;
+  line-height: normal;
 }
 .section-features .grid {
   display: grid;
