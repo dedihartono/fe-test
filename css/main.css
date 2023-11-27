@@ -137,7 +137,7 @@ section features .circle-icon {
   width: 6rem;
   height: 6rem;
   padding: 1rem;
-  background-color: green;
+  background-color: blue;
   border-radius: 50%;
 }
 
@@ -145,6 +145,11 @@ section features .circle-icon {
   padding: 5rem 0rem;
   text-align: center;
 }
+
+.section-features h2 {
+  text-align: left;
+}
+
 .section-features h3 {
   text-align: left;
   margin-top: 1.8rem;
