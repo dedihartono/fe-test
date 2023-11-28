@@ -113,6 +113,7 @@ section features .circle-icon {
   margin-bottom: 10px;
   color: white;
 }
+
 .content.grid {
   display: flex;
   justify-content: space-between;
@@ -121,10 +122,7 @@ section features .circle-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.section-features {
-  padding: 7rem 0;
-  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .section-features .grid {
@@ -142,7 +140,7 @@ section features .circle-icon {
 }
 
 .section-features {
-  padding: 5rem 0rem;
+  padding: 7rem 0rem;
   text-align: center;
 }
 
@@ -151,30 +149,24 @@ section features .circle-icon {
 }
 
 .section-features h3 {
-  text-align: left;
+  text-align: center;
   margin-top: 1.8rem;
   line-height: normal;
+  font-size: 1.1rem;
+  white-space: nowrap;
 }
-.section-features .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
+
 @media (min-width: 48rem) {
   .section-features {
     padding-top: 6rem;
   }
 }
-.section-features .row {
-  margin-bottom: 4rem;
-}
+
 .section-features img {
   width: 72px;
   margin: 0 auto 1rem;
 }
-.section-features h3 {
-  font-size: 1.1rem;
-}
+
 @media (min-width: 48rem) {
   .section-features .grid {
     display: grid;
