@@ -2,10 +2,12 @@
 /* section room */
 .section-room {
   background-color: #f8f9fa;
-  padding-top: 7rem;
+  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .section-room .card {
-  margin-bottom: 2.5rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
   text-align: center;
   background-color: #fff;
   transition: box-shadow 0.4s ease;
@@ -17,7 +19,7 @@
   transition: transform 0.4s ease;
 }
 .section-room .card-content {
-  padding: 1.5rem 0 2rem;
+  padding: 1rem 0 3rem;
   line-height: 1.4;
 }
 .section-room .card-content .room-name {
@@ -49,7 +51,7 @@
     gap: 2rem;
   }
 }
-/* section room */
+/* section about */
 .section-about {
   padding: 3rem 0 4rem;
 }
@@ -87,44 +89,81 @@
     margin-top: -1rem;
   }
 }
-@media (min-width: 64rem) {
+@media (min-width: 100rem) {
   .section-about .about {
     margin-left: 2rem;
-    margin-top: 0;
+    margin-top: 25;
   }
   .section-about .about p {
     line-height: 1.7;
     margin-bottom: 2rem;
   }
 }
+
 /* section features */
 .section-features {
-  padding: 7rem 0;
-  text-align: center;
+  margin-top: -4rem;
 }
-.section-features h2 {
-  text-align: left;
+
+.circle-icon i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
 }
+
+.content.grid {
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
 .section-features .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
+
+.circle-icon {
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.section-features {
+  padding: 2rem 0rem 5rem;
+  text-align: center;
+}
+
+.section-features h2 {
+  text-align: left;
+}
+
+.section-features h3 {
+  text-align: center;
+  margin-top: 1.8rem;
+  line-height: normal;
+  font-size: 1.1rem;
+  white-space: wrap;
+}
+
 @media (min-width: 48rem) {
   .section-features {
     padding-top: 6rem;
   }
 }
-.section-features .row {
-  margin-bottom: 4rem;
-}
+
 .section-features img {
   width: 72px;
   margin: 0 auto 1rem;
 }
-.section-features h3 {
-  font-size: 1.1rem;
-}
+
 @media (min-width: 48rem) {
   .section-features .grid {
     display: grid;
@@ -292,13 +331,14 @@
 }
 /* section events */
 .section-events {
-  padding-top: 7rem;
+  padding-top: 3rem;
 }
 .section-events p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 0.9rem;
 }
 .section-events .card {
+  margin-top: -2rem;
   margin-bottom: 3rem;
 }
 .section-events .title {
@@ -330,12 +370,12 @@
   width: 4px;
   border-radius: 50%;
 }
-.section-events .title .admin {
+.section-events .title .role {
   position: relative;
   color: #0d23ae;
   transition: color 0.2s ease-in-out;
 }
-.section-events .title .admin:hover {
+.section-events .title .role:hover {
   color: #000;
 }
 @media (min-width: 48rem) {
@@ -359,7 +399,7 @@
 
 .section-testimony {
   background-color: #f8f9fa;
-  padding: 7rem 0;
+  padding: 3.5rem 0;
 }
 .section-testimony h2 {
   margin-bottom: 3rem;
@@ -787,7 +827,7 @@ header.showBg .nav .active {
 @media (min-width: 48rem) {
   .menu a {
     color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 0.9rem;
     font-weight: 500;
   }
