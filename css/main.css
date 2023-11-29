@@ -372,12 +372,12 @@ section features .circle-icon {
   width: 4px;
   border-radius: 50%;
 }
-.section-events .title .admin {
+.section-events .title .role {
   position: relative;
   color: #0d23ae;
   transition: color 0.2s ease-in-out;
 }
-.section-events .title .admin:hover {
+.section-events .title .role:hover {
   color: #000;
 }
 @media (min-width: 48rem) {
