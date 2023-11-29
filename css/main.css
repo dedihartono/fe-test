@@ -2,10 +2,12 @@
 /* section room */
 .section-room {
   background-color: #f8f9fa;
-  padding-top: 7rem;
+  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .section-room .card {
-  margin-bottom: 2.5rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
   text-align: center;
   background-color: #fff;
   transition: box-shadow 0.4s ease;
@@ -17,7 +19,7 @@
   transition: transform 0.4s ease;
 }
 .section-room .card-content {
-  padding: 1.5rem 0 2rem;
+  padding: 1rem 0 3rem;
   line-height: 1.4;
 }
 .section-room .card-content .room-name {
@@ -49,7 +51,7 @@
     gap: 2rem;
   }
 }
-/* section room */
+/* section about */
 .section-about {
   padding: 3rem 0 4rem;
 }
@@ -99,18 +101,13 @@
 }
 
 /* section features */
-section features .circle-icon {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 15px;
-  background-color: blue;
-  border-radius: 50%;
+.section-features {
+  margin-top: -4rem;
 }
 
 .circle-icon i {
-  font-size: 50px;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
   color: white;
 }
 
@@ -140,7 +137,7 @@ section features .circle-icon {
 }
 
 .section-features {
-  padding: 7rem 0rem;
+  padding: 2rem 0rem 5rem;
   text-align: center;
 }
 
@@ -153,7 +150,7 @@ section features .circle-icon {
   margin-top: 1.8rem;
   line-height: normal;
   font-size: 1.1rem;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 @media (min-width: 48rem) {
@@ -334,13 +331,14 @@ section features .circle-icon {
 }
 /* section events */
 .section-events {
-  padding-top: 7rem;
+  padding-top: 3rem;
 }
 .section-events p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 0.9rem;
 }
 .section-events .card {
+  margin-top: -2rem;
   margin-bottom: 3rem;
 }
 .section-events .title {
@@ -401,7 +399,7 @@ section features .circle-icon {
 
 .section-testimony {
   background-color: #f8f9fa;
-  padding: 7rem 0;
+  padding: 3.5rem 0;
 }
 .section-testimony h2 {
   margin-bottom: 3rem;
