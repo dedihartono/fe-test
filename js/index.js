@@ -12,7 +12,6 @@ const body = document.querySelector('body');
 const loaders = document.querySelector('.preloader');
 const form = document.querySelector('.form');
 
-// change header background color on scroll
 const showBg = () => {
   const scroll = window.scrollY;
 
@@ -27,7 +26,6 @@ const showBg = () => {
   }
 };
 
-// NAV BAR
 menuBar.addEventListener('click', () => {
   nav.classList.toggle('showMenu');
   let closeBar = menuBar.querySelector('i');
@@ -36,16 +34,13 @@ menuBar.addEventListener('click', () => {
   document.body.classList.toggle('fixed');
 });
 
-// NAV LINKS
 menuLinks.forEach((link) => {
   if (link.href === window.location.href) {
     link.classList.add('active');
   }
 });
 
-// FOR HOME AND ABOUT SECTION
 const galleryFun = () => {
-  // GALLERY SECTION
   const modal = document.querySelector('#modal');
   const preview = document.querySelectorAll('.gallery img');
   const original = document.querySelector('.full-img');
@@ -70,7 +65,6 @@ const galleryFun = () => {
   });
 };
 
-// SLIDER FUNCTION FOR THE HOME SECTION
 if (body === page) {
   // // PRELOADER
   const inti = () => {
@@ -103,12 +97,10 @@ if (body === page) {
 
   reset();
 
-  // move slide
   const moveSlide = () => {
     slider.style.transform = `translateX(-${currentSlide * slideSize}px)`;
   };
 
-  // next slide
   const nextSlide = () => {
     currentSlide++;
 
@@ -124,7 +116,6 @@ if (body === page) {
     moveSlide();
   };
 
-  // next slide
   const prevSlide = () => {
     currentSlide--;
 
@@ -140,7 +131,6 @@ if (body === page) {
     moveSlide();
   };
 
-  // auto slide
   if (auto) {
     slideInterval = setInterval(nextSlide, slideTime);
   }
@@ -148,30 +138,24 @@ if (body === page) {
   nextBtn.addEventListener('click', nextSlide);
   prevBtn.addEventListener('click', prevSlide);
 
-  // GALLERY FUNCTION FOR THE HOME SECTION
   galleryFun();
 }
 
-// GALLERY FUNCTION FOR THE ABOUT SECTION
 if (body === about) {
   galleryFun();
 }
 
-// FORM CONTROL
 if (body === form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
   });
 }
 
-// CARDS
-// fade in options
 cardOptions = {
   threshold: 0,
   rootMargin: '0px 0px -120px 0px',
 };
 
-// fade in cards
 const showCardsOnScroll = new IntersectionObserver(function (entries, showCardsOnScroll) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
@@ -187,7 +171,6 @@ cards.forEach((card) => {
   showCardsOnScroll.observe(card);
 });
 
-// show goToTop arrow on scroll
 const pageUp = () => {
   const scroll = window.scrollY;
 
@@ -198,6 +181,5 @@ const pageUp = () => {
   }
 };
 
-// EVENT LISTENERS
 window.addEventListener('scroll', showBg);
 window.addEventListener('scroll', pageUp);

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* section room */
+
 .section-room {
   background-color: #f8f9fa;
   margin-top: 1rem;
@@ -51,7 +51,7 @@
     gap: 2rem;
   }
 }
-/* section about */
+
 .section-about {
   padding: 3rem 0 4rem;
 }
@@ -100,7 +100,6 @@
   }
 }
 
-/* section features */
 .section-features {
   margin-top: -4rem;
 }
@@ -178,7 +177,7 @@
     gap: 2rem;
   }
 }
-/* section facilities */
+
 .section-facilities {
   padding: 2rem 0;
   color: #fff;
@@ -213,7 +212,8 @@
   }
 }
 .section-facilities .promo .cta {
-  color: #fff;
+  background-color: #fff;
+  color: #000000;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
@@ -221,11 +221,11 @@
   transition: background-color 0.3s ease-in;
 }
 .section-facilities .promo .cta:hover {
-  background-color: #0d23ae;
+  background-color: #888888;
 }
 .section-facilities .facilities span {
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
 }
@@ -248,7 +248,7 @@
     padding: 3rem 0;
   }
 }
-/* section gallery */
+
 .section-gallery {
   padding-top: 7rem;
 }
@@ -329,7 +329,7 @@
 .full-img.open {
   transform: translate(-50%, -50%) scale(1);
 }
-/* section events */
+
 .section-events {
   padding-top: 3rem;
 }
@@ -392,7 +392,7 @@
     gap: 2rem;
   }
 }
-/* section-testimony */
+
 .ratings {
   color: orange;
 }
@@ -433,7 +433,7 @@
     gap: 2rem;
   }
 }
-/* section-footer */
+
 #footer-section {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1rem 0rem 0rem;
@@ -520,7 +520,6 @@
   }
 }
 
-/* section form */
 .form {
   padding: 4rem 0;
 }
@@ -572,7 +571,6 @@
   box-shadow: -1px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-/* section header */
 header {
   position: fixed;
   top: 0;
@@ -609,7 +607,6 @@ header.showBg .nav .active {
   color: #0d23ae;
 }
 
-/* section logo */
 .logo a {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -619,7 +616,6 @@ header.showBg .nav .active {
   color: #000;
 }
 
-/* section hero */
 #hero-section {
   height: 100vh;
   overflow: hidden;
@@ -1010,7 +1006,6 @@ h3 {
   transition: background-color 0.3s ease-in;
 }
 
-/* section staff */
 .icon-title a {
   font-size: 2rem;
 }
@@ -1091,7 +1086,6 @@ h3 {
   margin-bottom: 7rem;
 }
 
-/* section contact */
 .form-title {
   font-size: 1.9rem;
   font-weight: 300;

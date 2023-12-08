@@ -1,5 +1,3 @@
-//Form Fetch Post Data to server JSON
-
 const contactForm = document.getElementById('form');
 
 contactForm.addEventListener('submit', (event) => {
@@ -32,5 +30,3 @@ contactForm.addEventListener('submit', (event) => {
       alert('Something When Wrong to Submit!', error);
     });
 });
-
-//Form Fetch Get Data from server JSON
