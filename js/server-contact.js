@@ -8,7 +8,7 @@ contactForm.addEventListener('submit', (event) => {
   const phone = document.getElementById('phone').value;
   const message = document.getElementById('message').value;
 
-  fetch('https://be-2-surabaya-12-production.up.railway.app/contact', {
+  fetch('https://be-2-surabaya-12-production-92ce.up.railway.app/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
