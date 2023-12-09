@@ -12,15 +12,17 @@ function displayData(data) {
 
   roomList.innerHTML = '';
 
-  data?.data.forEach(room => {
+  data?.data.forEach((room, i) => {
       const content = `
-              <a class="s-img" href="./contact.html">
-                  <img aria-label="room" src="../assets/img/room-1.jpg" alt="${room.room_type}" />
-              </a>
-              <div class="card-content">
-                  <a class="room-name" href="./contact.html">${room.room_type}</a>
-                  <p>Rp. ${room.room_price} / per night</p>
-              </div>
+            <div class="card fade-in appear">
+                <a class="s-img" href="./contact.html">
+                    <img aria-label="room" src="../assets/img/room-1.jpg" alt="${room.room_type}" />
+                </a>
+                <div class="card-content">
+                    <a class="room-name" href="./contact.html">${room.room_type}</a>
+                    <p>Rp. ${room.room_price} / per night</p>
+                </div>
+            </div>
       `;
       roomList.innerHTML += content;
   });
